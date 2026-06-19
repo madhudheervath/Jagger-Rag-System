@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment / secrets
+.env
+
+# Generated index (rebuild with python ingest.py)
+/rag_index/
+
+# Generated submission
+/submission.csv
+
+# IDE
+.vscode/
+.idea/
